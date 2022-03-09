@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Capacitación</title>
+    <!--google fonts oswald-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;700&display=swap" rel="stylesheet">
+
+    <style>
+        
+        * {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        }
+
+        body {
+        font-family: 'Oswald', sans-serif;
+        background-color: #d8dada;
+        font-size: 19px;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 3%;
+        }
+
+        img {
+        max-width: 100%;
+        }
+
+        header {
+        width: 98%;
+        }
+
+        #logo {
+        max-width: 120px;
+        margin: 3% 0 3% 3%;
+        float: left;
+        }
+
+        #wrapper {
+        background-color: #f0f6fb;
+        }
+
+        #social {
+        float: right;
+        margin: 3% 2% 4% 3%;
+        list-style-type: none;
+        }
+
+        #social > li {
+        display: inline;
+        }
+
+        #social > li > a > img {
+        max-width: 35px;
+        }
+
+        h1,
+        p {
+        margin: 3%;
+        color: grey;
+        text-align: justify;
+        }
+
+        h3 {
+        margin: 3%;
+        color: #04a2aa;
+        }
+
+        .row > .col > img {
+
+            max-width: 190px;
+            height: 120px;
+
+        }
+
+        hr {
+        height: 1px;
+        background-color: #303840;
+        clear: both;
+        width: 96%;
+        margin: 2%;
+        }
+
+        .hrc {
+            background-color: orange;
+            height: 2px;
+            clear: both;
+            width: 96%;
+            margin: 2%;
+        }
+
+        #contact {
+        text-align: center;
+        padding-bottom: 3%;
+        line-height: 16px;
+        font-size: 14px;
+        color: #303840;
+        }
+
+    </style>
+  </head>
+  <body>
+    <div id="wrapper">
+        <header>
+            <div id="logo">
+                <img src="img/Logosf.png" alt="">
+            </div>
+
+            <div>
+                <ul id="social">
+                    <li>
+                        <a href="https://www.linkedin.com/in/cas-asesorias-y-servicios/" target="_blank"><img src="img/lkdn.png" alt=""></a>
+                    </li>
+
+                    <li>
+                        <a href="https://casgroup.cl/capacitacion-tecnologia/" target="_blank"><img src="img/internet5.jpg" alt=""></a>
+                    </li>
+                </ul>
+            </div>
+
+        </header>
+        <div id="banner">
+            <img src="img/banner.png" alt="">
+        </div>
+        <div class="container">
+            <h1>Cursos de Capacitación en Nuevas Tecnologías</h1>
+            <hr>
+            <div class="row">
+              <div class="col">
+                <img src="img/pyda.png" alt="">
+                <h3>Python Análisis de Datos</h3>
+                <hr class="hrc">
+                <p>Con las herramientas de Python podemos simplificar y automatizar los análisis de datos, ahorrando tiempo y mejorando los procesos.</p>
+                <a href="https://casgroup.cl/curso-python-desdecero-datascience/" class="btn btn-primary" target="_blank">Ver Curso</a>
+              </div>
+              <div class="col">
+                <img src="img/mlpy.jpg" alt="">
+                <h3>Python Modelos Predictivos</h3>
+                <hr class="hrc">
+                <p>Python con sus herramientas de Machine Learning y Forecasting nos permite construir modelos predictivos para aplicarlos a información importante en la empresa.</p>
+                <a href="https://casgroup.cl/curso-python-forecasting-machinelearning/" class="btn btn-primary" target="_blank">Ver Curso</a>
+              </div>
+              <div class="col">
+                <img src="img/rpa-fact.png" alt="">
+                <h3>RPA Automatizar Procesos</h3>
+                <hr class="hrc">
+                <p>La tecnología RPA (robotic process automation) permite automatizar tareas comunes y rutinarias, como filtrar una planilla Excel, ingresar datos a un sistema, enviar email, entre otros.</p>
+                <a href="https://casgroup.cl/curso-rpa-desde-cero-4/" class="btn btn-primary" target="_blank">Ver Curso</a>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <footer>
+            <p id="contact">
+                Estaremos atentos a sus dudas <br />
+                contacto@casgroup.cl <br />
+                +569 93263103 <br />
+            </p>
+          </footer>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
